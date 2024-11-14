@@ -205,11 +205,53 @@ nav {
 
 .quote {
     color: #7f7f7f;
-    font-size: 2.5vw; 
+    font-size: 3vw; 
     text-align: center; /* Centrerar citatet */
     margin-top: 10px; /* Utrymme ovanför citatet */
     width: 100%; 
 }
+
+/* Styling för citatsektionen */
+.quote-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrerar innehållet horisontellt */
+    margin-top: 10px;
+}
+
+.quote-image {
+    max-width: 45px; /* Justera bildens storlek */
+    height: auto;
+    margin-right: 5px; /* Skapar utrymme mellan bild och text */
+}
+
+.quote-text {
+    font-size: 14px;
+    text-align: left; /* Texten placeras till höger om bilden */
+}
+
+.quote-text h4 {
+    color: #050505;
+}
+
+.quote-text p {
+    color: #999999;
+}
+
+
+.color-1{
+    color:black;
+}
+
+.color-2{
+    color:  #666666;
+}
+
 
 
 
