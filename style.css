@@ -593,3 +593,8 @@ footer p {
     height: 1px; /* Höjd för linjen */
     background-color: #999999;
 }
+
+/*  design för  skärmar  som är 600px eller mindre*/
+@media (max-width: 600px) {
+
+}
