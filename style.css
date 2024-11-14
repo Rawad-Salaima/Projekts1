@@ -73,3 +73,26 @@ nav {
     text-decoration: none;
     font-size: 14px;
 }
+
+.hamburger-menu {
+    display: none;
+    max-width: 20px;
+    height: auto;
+}
+
+.special-link {
+    background-color:  #050505;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.special-link a {
+    color:  #e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.special-link:hover {
+    background-color:#121212;
+    color: #f4f4f4;
+}
