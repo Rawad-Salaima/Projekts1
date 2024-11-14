@@ -671,7 +671,49 @@ footer p {
         .hamburger-menu {
             display: block; /* Visa hamburgermenyn */
         }
-    
 
+        /* Ytterligare ändringar */
+    .hero-section img {
+        max-width: 100%; 
+        height: auto; /* Behåll bildens proportioner */
+    }
+
+    .text-column h1,
+    .text-column h2 {
+        font-size: 24px; /* Minska rubrikstorleken på mobiler */
+    }
+
+    .text-column p {
+        font-size: 16px; /* Minska textstorleken på mobiler */
+        line-height: 1.5; /* Öka radavståndet för bättre läsbarhet */
+    }
+
+    .columns-container {
+        flex-direction: column; 
+    }
+
+    .column {
+        border-left: none; 
+    }
+
+    .column:last-child {
+        border-bottom: none; /* Ingen linje på sista kolumnen */
+    }
+
+    .stats-section {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .stats-column {
+        width: 100%; 
+        text-align: center;
+        border-right: none;
+        padding: 20px ; 
+    }
+
+    .stats-column:last-child {
+        border-bottom: none; /* Ingen linje på sista kolumnen */
+    }
 
 }
