@@ -509,14 +509,83 @@ nav {
     background-color: #333; 
 }
 
+/* Styling för fotter */
+footer {
+    text-align: left; /* Justera texten till vänster */
+    background-color: #f4f4f4;
+    color: black;
+    padding: 20px;
+    max-width: 1200px; /* Begränsa maxbredden */
+    margin: auto;
+    position: relative;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: flex-start;
+    gap: 40px; /* Skapa utrymme mellan vänster och höger sektion */
+}
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Fördela utrymmet */
+}
 
+.footer-logo {
+    margin-bottom: 15px;
+    width: 120px;
+}
 
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
 
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
 
+.footer-privacy p {
+    margin-bottom: 5px;
+}
 
+footer p {
+    margin-top: 15px;
+    font-size: 0.8em;
+}
 
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 65%; /* Resterande bredd för länkarna */
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Skapa avstånd mellan länkgrupperna */
+}
+
+.footer-links p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
 /* Divider linje */
 .divider {
     margin-top: 20px;
