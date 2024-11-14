@@ -169,6 +169,52 @@ nav {
     object-fit: contain; /* Behåller proportionerna inuti ramen */
 }
 
+/* andra sektion styling */
+.feature-section {
+    margin-top: 40px; /* Utrymme ovanför sektionen */
+}
+
+.text-image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.feature-text-column { 
+    max-width: 50%; /* Maximalt 50% av bredden */
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.feature-image-column { 
+    text-align: center;
+    position: relative; /* Positionerar bilden relativt för citatet */
+    margin-bottom: 20px; /
+}
+
+.image-text-container {
+    position: relative; /* För att kunna positionera citatet korrekt */
+}
+
+.feature-image-column img { 
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga runt bilden */
+    margin-bottom: 10px; /* Mellanrum under bilden */
+}
+
+.quote {
+    color: #7f7f7f;
+    font-size: 2.5vw; 
+    text-align: center; /* Centrerar citatet */
+    margin-top: 10px; /* Utrymme ovanför citatet */
+    width: 100%; 
+}
+
+
+
+
+
 
 
 /* Divider linje */
