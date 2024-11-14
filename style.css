@@ -96,3 +96,22 @@ nav {
     background-color:#121212;
     color: #f4f4f4;
 }
+
+/* Style för Första sektionen*/
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px; /* utrymme under headern */
+}
+
+.hero-text-column { 
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-text-column h1 { 
+    font-size: 4vw; 
+    font-weight: 650;
+    margin-bottom: 15px;
+}
