@@ -285,6 +285,45 @@ nav {
     background-color: #121212;
 }
 
+/* Hela listan får border-radius och bakgrundsfärg */
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 65%;
+    background-color:  #e5e5e5; /* Bakgrundsfärg för hela listan */
+    border-radius: 5px; /* Rundade hörn för hela listan */
+    padding: 10px; /* Lite padding runt hela listan */
+}
+
+.icon-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #666666; /* Border mellan listobjekten */
+}
+
+.icon-list li:last-child {
+    border-bottom: none; /* Tar bort border-bottom på sista listobjektet */
+}
+
+.icon-list .list-text {
+    flex: 1;
+    text-align: left;
+}
+
+.icon-list img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
 
 
 
@@ -294,6 +333,7 @@ nav {
 
 /* Divider linje */
 .divider {
+    margin-top: 20px;
     border: 0; /* Ta bort standard gräns */
     height: 1px; /* Höjd för linjen */
     background-color: #999999;
