@@ -592,6 +592,8 @@ footer p {
     border: 0; /* Ta bort standard gräns */
     height: 1px; /* Höjd för linjen */
     background-color: #999999;
+    width: 98%;
+    margin: auto;
 }
 
 /*  design för  skärmar  som är 600px eller mindre*/
