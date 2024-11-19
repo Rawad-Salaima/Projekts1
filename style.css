@@ -762,4 +762,14 @@ footer p {
         max-width: 200px; /* Sätt en maxbredd */
     }
 
+    .cta-section a{
+        display: block;
+        margin: auto;
+        padding: 14px 28px; /* Större padding för bättre tryckbarhet */
+        font-size: 20px; /* Större textstorlek för knappen */
+        width: auto;
+        max-width: 50%;
+        text-align: center;
+    }
+
 }
