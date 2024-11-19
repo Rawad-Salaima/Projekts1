@@ -772,4 +772,31 @@ footer p {
         text-align: center;
     }
 
+    /* Anpassar "See why dogs love us"-sektionen */
+.g2-section {
+    display: flex;
+    flex-direction: column; /* Gör sektionen till en kolumn */
+    align-items: center; /* Centrera innehåll horisontellt */
+    text-align: center; /* Centrera text */
+    gap: 1.5rem; /* Avstånd mellan text och bild */
+    padding: 1rem; /* Lägg till padding runt sektionen */
+}
+
+.text-content {
+    text-align: center; /* Centrera texten */
+    flex-basis: auto; /* Anpassa till innehållets storlek */
+    width: 100%; /* Fyll hela bredden */
+}
+
+.image-content {
+    width: 100%; /* Fyll hela bredden */
+}
+
+.image-content img {
+    max-width: 100%; /* Gör bilden responsiv */
+    height: auto; /* Bevara bildens proportioner */
+    margin-bottom: 1rem; /* Luft mellan bild och andra element */
+}
+
+
 }
