@@ -206,7 +206,7 @@ nav {
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga runt bilden */
     margin-bottom: 10px; /* Mellanrum under bilden */
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
