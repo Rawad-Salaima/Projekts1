@@ -149,6 +149,10 @@ nav {
     height: auto;
 }
 
+.linje{
+    border-right:solid 1px #999999 ;
+}
+
 
 /* Styling för loggsektionen */
 .logo-section {
@@ -189,7 +193,8 @@ nav {
 .feature-image-column { 
     text-align: center;
     position: relative; /* Positionerar bilden relativt för citatet */
-    margin-bottom: 20px; /
+    margin-bottom: 20px; 
+
 }
 
 .image-text-container {
@@ -201,6 +206,8 @@ nav {
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga runt bilden */
     margin-bottom: 10px; /* Mellanrum under bilden */
+    border-radius: 5px;
+
 }
 
 .quote {
