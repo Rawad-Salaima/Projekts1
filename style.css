@@ -735,4 +735,27 @@ footer p {
     .stats-column:last-child {
         border-bottom: none; /* Ingen linje på sista kolumnen */
     }
+
+    .third-section h2 {
+        font-size: 28px; /* Större rubrikstorlek */
+        margin-bottom: 1rem; /* Lägg till utrymme under rubriken */
+        text-align: center; /* Centrera texten */
+    }
+
+    .third-section p {
+        font-size: 15px !important; /* Tvingar regeln att gälla */
+        line-height: 1.5 !important; /* Förbättrar läsbarhet med radavstånd */
+        text-align: center;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .third-section .cta-button {
+        font-size: 15px; /* Större knapptext */
+        padding: 14px 28px; /* Gör knappen lättare att trycka på */
+        margin: 1rem auto; /* Lägg till marginal för centrerad placering */
+        width: 70%; /* Anpassa knappens bredd */
+        max-width: 200px; /* Sätt en maxbredd */
+    }
+
 }
