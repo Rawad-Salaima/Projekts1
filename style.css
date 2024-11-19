@@ -304,6 +304,7 @@ nav {
     background-color:  #e5e5e5; /* Bakgrundsfärg för hela listan */
     border-radius: 5px; /* Rundade hörn för hela listan */
     padding: 10px; /* Lite padding runt hela listan */
+    margin-bottom: 20px;
 }
 
 .icon-list li {
@@ -602,8 +603,7 @@ footer p {
     width: 98%;
     margin: auto;
 }
-
-/*  design för  skärmar  som är 600px eller mindre*/
+/* Design för skärmar som är 600px eller mindre */
 @media (max-width: 600px) {
     header {
         position: static;
@@ -613,96 +613,105 @@ footer p {
     /* För hero-sektionen */
     .hero-section {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
-        align-items: center; 
+        align-items: center;
+        padding: 1rem; /* Lägga till padding för bättre avstånd */
     }
 
     .hero-image-column {
-        order: 1; 
-        max-width: 80%; 
-        margin-bottom: 1rem; 
+        order: 1;
+        max-width: 90%; /* Öka maxbredden för bättre responsivitet */
+        margin-bottom: 1rem;
     }
 
     .hero-text-column {
-        order: 2; 
-        max-width: 100%; 
-        display: flex; 
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
+        order: 2;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 1rem; /* Lägga till sidopadding */
     }
 
     .cta-button {
-        display: block; 
-        margin:  auto ; 
-        padding: 12px 24px; 
-        font-size: 18px; 
-        width: auto; 
-        max-width: 50%; 
-        text-align: center; 
+        display: block;
+        margin: auto;
+        padding: 14px 28px; /* Större padding för bättre tryckbarhet */
+        font-size: 20px; /* Större textstorlek för knappen */
+        width: auto;
+        max-width: 70%;
+        text-align: center;
     }
 
-        /* För feature-sektionen */
-        .text-image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center; 
-            margin-bottom: 20px;
-        }
-    
-        .feature-text-column {
-            max-width: 90%; 
-            text-align: center; 
-            margin-bottom: 1rem;
-        }
-    
-        .feature-image-column {
-            max-width: 100%;
-            text-align: center; 
-            margin-bottom: 1rem;
-        }
-    
-        .image-text-container {
-            display: flex;
-            flex-direction: column; 
-            align-items: center; 
-        }
-    
-        .quote {
-            text-align: center; /* Centrera citatet */
-        }
-    
-        nav {
-            display: none; /* Dölja navigation på mobiler */
-        }
-    
-        .hamburger-menu {
-            display: block; /* Visa hamburgermenyn */
-        }
+    /* För feature-sektionen */
+    .text-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
-        /* Ytterligare ändringar */
+    .feature-text-column {
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .feature-image-column {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .image-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote {
+        text-align: center; /* Centrera citatet */
+        font-size: 18px; /* Justera citatstorleken */
+        line-height: 1.6; /* För bättre läsbarhet */
+        padding: 0 1rem; /* Lägga till sidopadding */
+    }
+
+    nav {
+        display: none; /* Dölja navigation på mobiler */
+    }
+
+    .hamburger-menu {
+        display: block; /* Visa hamburgermenyn */
+    }
+
+    /* Ytterligare ändringar */
     .hero-section img {
-        max-width: 100%; 
+        max-width: 100%;
         height: auto; /* Behåll bildens proportioner */
     }
 
     .text-column h1,
     .text-column h2 {
-        font-size: 24px; /* Minska rubrikstorleken på mobiler */
+        font-size: 26px; /* Anpassa rubrikstorleken */
+        margin-bottom: 0.5rem; /* Lägga till avstånd mellan rubriker */
     }
 
     .text-column p {
-        font-size: 16px; /* Minska textstorleken på mobiler */
-        line-height: 1.5; /* Öka radavståndet för bättre läsbarhet */
+        font-size: 18px; /* Öka textstorleken för bättre läsbarhet */
+        line-height: 1.75; /* Öka radavstånd */
+        padding: 0 1rem; /* Lägga till sidopadding */
     }
 
     .columns-container {
-        flex-direction: column; 
+        flex-direction: column;
+        gap: 1rem; /* Lägga till avstånd mellan kolumner */
     }
 
     .column {
-        border-left: none; 
+        border-left: none;
+        padding: 1rem; /* Lägg till padding för bättre layout */
     }
 
     .column:last-child {
@@ -710,19 +719,20 @@ footer p {
     }
 
     .stats-section {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; /* Lägga till padding för bättre avstånd */
     }
 
     .stats-column {
-        width: 100%; 
+        width: 100%;
         text-align: center;
         border-right: none;
-        padding: 20px ; 
+        padding: 20px;
+        margin-bottom: 1rem; /* Lägg till avstånd mellan stats-kolumner */
     }
 
     .stats-column:last-child {
         border-bottom: none; /* Ingen linje på sista kolumnen */
     }
-
 }
