@@ -635,6 +635,10 @@ footer p {
         padding: 0 1rem; /* Lägga till sidopadding */
     }
 
+    .hero-text-column p{
+        font-size: 15px;
+    }
+
     .cta-button {
         display: block;
         margin: auto;
