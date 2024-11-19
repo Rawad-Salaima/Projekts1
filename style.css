@@ -517,30 +517,29 @@ nav {
     background-color: #333; 
 }
 
-/* Styling för fotter */
 footer {
-    text-align: left; /* Justera texten till vänster */
-    background-color:white;
+    background-color: white;
     color: black;
     padding: 20px;
-    max-width: 1200px; /* Begränsa maxbredden */
+    max-width: 1200px;
     margin: auto;
-    position: relative;
+    font-family: Arial, sans-serif;
 }
 
+/* Wrapper för innehållet */
 .footer-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    align-items: flex-start;
-    gap: 40px; /* Skapa utrymme mellan vänster och höger sektion */
+    gap: 40px;
+    flex-wrap: wrap; /* Gör det responsivt för mindre skärmar */
 }
 
+/* Vänster sektion */
 .footer-left {
     display: flex;
     flex-direction: column;
-    width: 30%; /* Fördela utrymmet */
+    width: 100%; /* Full bredd på mindre skärmar */
+    max-width: 30%; /* Begränsa bredden på större skärmar */
 }
 
 .footer-logo {
@@ -561,39 +560,40 @@ footer {
 
 .footer-privacy p {
     margin-bottom: 5px;
+    font-size: 0.8rem;
+    max-width: 100%;
 }
 
-footer p {
-    margin-top: 15px;
-    font-size: 0.8em;
-}
-
+/* Rubriker och länkar */
 .footer-links {
-    display: flex;
-    justify-content: space-between;
-    width: 65%; /* Resterande bredd för länkarna */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Skapar fyra kolumner */
+    gap: 50px;
+    width:65%;
 }
 
 .footer-links div {
     display: flex;
     flex-direction: column;
-    margin-right: 20px; /* Skapa avstånd mellan länkgrupperna */
+    gap: 8px;
 }
 
 .footer-links p {
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 .footer-links a {
     color: black;
     text-decoration: none;
-    margin-bottom: 5px;
+    font-size: 0.85rem;
 }
 
 .footer-links a:hover {
     text-decoration: underline;
 }
+
 /* Divider linje */
 .divider {
     margin-top: 20px;
@@ -772,7 +772,6 @@ footer p {
         text-align: center;
     }
 
-    /* Anpassar "See why dogs love us"-sektionen */
 .g2-section {
     display: flex;
     flex-direction: column; /* Gör sektionen till en kolumn */
@@ -797,6 +796,27 @@ footer p {
     height: auto; /* Bevara bildens proportioner */
     margin-bottom: 1rem; /* Luft mellan bild och andra element */
 }
+.footer-content {
+    flex-direction: column;
+    gap: 20px;
+}
 
+.footer-left {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-social {
+    justify-content: center;
+}
+
+.footer-links {
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner på mobil */
+    text-align: center;
+}
+
+.footer-links div {
+    align-items: center; /* Centrera rubriker och länkar */
+}
 
 }
